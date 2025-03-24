@@ -1,5 +1,5 @@
 const user = {
-    userName : "Ranjeet",
+    userName : "Tania",
     price : 199,
     welcomeMsg : function (){
     console.log(`${this.userName} , Welcome to website`);
@@ -8,7 +8,7 @@ const user = {
 } 
 
 // user.welcomeMsg()
-// user.userName = 'Jeet'
+// user.userName = 'Tania'
 // user.welcomeMsg()
 
 console.log(this)
@@ -25,7 +25,7 @@ console.log(this)
 // newSecFun()
 
 // const new3Fun = () => {
-//     let user = 'Ranjeet'
+//     let user = 'Tania'
 //     console.log(this.user);
 // }
 // new3Fun()
@@ -39,8 +39,8 @@ console.log(this)
 
 // const AddTwoNum = (num1,num2) => (num1+num2);
 
-// const AddTwoNum = (num1,num2) => {username : 'K'}; 
+// const AddTwoNum = (num1,num2) => {username : 'T'}; 
 
-const AddTwoNum = (num1,num2) => ({username : 'R'}); // { username: 'R' }
+const AddTwoNum = (num1,num2) => ({username : 'T'}); // { username: 'T' }
 
 console.log((AddTwoNum(4,5)));
