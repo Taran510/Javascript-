@@ -1,53 +1,39 @@
+const coding = ["js", "ruby", "java", "python", "cpp"]
 
-const newArr = ["js","py","cpp","java","dsa"]
+// coding.forEach( function (val){
+//     console.log(val);
+// } )
 
-newArr.forEach(function (item) {
-  //  console.log(item);
-    
-})
-
-// dusre trike se bhi dekh lete hai arrow va;e trike se
-
-newArr.forEach((val) => {
- //   console.log(val);
-    
-})
-
-// function printme (item){
+// coding.forEach( (item) => {
 //     console.log(item);
-    
+// } )
+
+// function printMe(item){
+//     console.log(item);
 // }
-// newArr.forEach(printme)
 
-newArr.forEach( (item , index , Array)=>{
-  //  console.log(item , index , Array);
-    
-})
+// coding.forEach(printMe)
 
+// coding.forEach( (item, index, arr)=> {
+//     console.log(item, index, arr);
+// } )
 
-const coding = [
-      {
-        languageName : "Java",
-        languageFilename : "java"
-      },
-      {
-        languageName : "Java",
-        languageFilename : "java"
-      },
-      {
-        languageName : "C++",
-        languageFilename : "cpp"
-      },
-      {
-        languageName : "JavaScript",
-        languageFilename : "js"
-      },
-      {
-        languageName : "python",
-        languageFilename : "py"
-      }
+const myCoding = [
+    {
+        languageName: "javascript",
+        languageFileName: "js"
+    },
+    {
+        languageName: "java",
+        languageFileName: "java"
+    },
+    {
+        languageName: "python",
+        languageFileName: "py"
+    },
 ]
 
-coding.forEach( (item) => {
-    console.log(item.languageName)
+myCoding.forEach( (item) => {
+    
+    console.log(item.languageName);
 } )

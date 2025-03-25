@@ -1,32 +1,34 @@
-// reduse ka use 
+const myNums = [1, 2, 3]
 
-const number = [1,2,3,4,5]
+// const myTotal = myNums.reduce(function (acc, currval) {
+//     console.log(acc: ${acc} and currval: ${currval});
+//     return acc + currval
+// }, 0)
 
-// const Totalnumber = number.reduce(function (acc,currval) {
-//     return acc+currval
-// },0)
-// console.log(Totalnumber);
+const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
 
-const Total = number.reduce((acc,currval)=>acc+currval,0)
-// console.log(Total);
+console.log(myTotal);
 
 
-const shopingCart = [
-
-     {  itemName:'Js course',
-       price: 333
-     },
-     {  itemName:'ds course',
+const shoppingCart = [
+    {
+        itemName: "js course",
+        price: 2999
+    },
+    {
+        itemName: "py course",
         price: 999
-     },
-     {  itemName:'mobile development',
-        price: 850
-     },
-     {  itemName:'Python course',
-        price: 500
-     } 
-
+    },
+    {
+        itemName: "mobile dev course",
+        price: 5999
+    },
+    {
+        itemName: "data science course",
+        price: 12999
+    },
 ]
 
-const Topay = shopingCart.reduce((acc,item)=>acc+item.price,0)
-console.log(Topay);
+const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
+
+console.log(priceToPay);
