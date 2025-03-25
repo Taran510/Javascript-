@@ -1,24 +1,20 @@
-// while loop
+let index = 0
+// while (index <= 10) {
+//     console.log(Value of index is ${index});
+//     index = index + 2
+// }
 
-let i =0
-while (i <=10) {
-   // console.log(`Value of i = ${i}`);
-    i = i + 3
-}
-
-const myarr = ["Flash","Superman","Batman"]
+let myArray = ['flash', "batman", "superman"]
 
 let arr = 0
-while (arr<myarr.length) {
-   // console.log(myarr[arr])
-    arr +=1     // Agr hum condition nhi lgayenge to infinite lop chlne lgega 
+while (arr < myArray.length) {
+    //console.log(Value is ${myArray[arr]});
+    arr = arr + 1
 }
 
+let score = 11
 
-// do while 
-
-let nums = 11
 do {
-    console.log(nums);
-    nums++
-} while (nums<10);         // 11
+    console.log(Score is ${score});
+    score++
+} while (score <= 10);

@@ -1,33 +1,26 @@
-// Object ke uper for in loop lgta hai
-
-const newObj = {
-    js : 'JavaScript',
-    cpp : 'C++',
-    py : 'Python',
-    DSA : 'Data structure and algorithim'
+const myObject = {
+   js: 'javascript',
+   cpp: 'C++',
+   rb: "ruby",
+   swift: "swift by apple"
 }
 
-for (const key in newObj) {
-   //  console.log(`${key} :- ${newObj[key]}`);
-     
+for (const key in myObject) {
+   //console.log(${key} shortcut is for ${myObject[key]});
 }
 
-// Ab dekhte hai ki kya hum array ke uper for in loop lga skte hai ki nhi
+const programming = ["js", "rb", "py", "java", "cpp"]
 
-const myNewArr = ['js','py','cpp','dsa']
-for (const key in myNewArr) {
-  //   console.log(`${myNewArr[key]} `)
+for (const key in programming) {
+   //console.log(programming[key]);
 }
 
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('USA', "United States of America")
+// map.set('Fr', "France")
+// map.set('IN', "India")
 
-//Ab dekhte hai ki Map pr lgta hai ki nhi 
-
-const map = new Map()
-map.set('IN', "India")
-map.set('USA',"United state of america")
-map.set('FR', "France")
-
-for (const key in map) {
-   //  console.log(key);
-     
-}
+// for (const key in map) {
+//     console.log(key);
+// }
