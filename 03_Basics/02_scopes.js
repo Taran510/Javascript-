@@ -16,13 +16,13 @@ if(true){
     // console.log("INNER ",a);
 }
 
- console.log(a);    // Error
- console.log(b);     // Error
+ //console.log(a);    // Error
+ //console.log(b);     // Error
  console.log(c);       // 13
 
 //
 function one(){
-    userName = "Ranjeet"
+    userName = "Tania"
 
     function two() {
         const website = "Git"
@@ -35,8 +35,8 @@ function one(){
 one()
 
 if(true){
-    const user_name = "Jeet"
-    if (user_name === "Jeet") {
+    const user_name = "Tania"
+    if (user_name === "Tania") {
         const website = "youtube"
         // console.log(user_name + website);
     }
