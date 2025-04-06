@@ -19,5 +19,13 @@
 
     addLang("Python")
     addLang("Typescript")
+
+    function addOptiLang(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.lang').appendChild(li)
+    }
+
+    addOptiLang("Java")
 </script>
 </html>
